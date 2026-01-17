@@ -14,7 +14,6 @@ https://eatnsplitx.netlify.app/
 - A delete friend button and a warning window have been added.
 - The difference between uppercase and lowercase letters was ignored.
 - Special effort was made for responsive design.
-- Some SVG icons and images were added as imported assets.
 
 ![](./public/screenshot.png)
 
