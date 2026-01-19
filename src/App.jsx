@@ -2,16 +2,8 @@ import { useState } from "react";
 import { initialFriends } from "./data/friends";
 import Attribution from "./assets/attribution";
 import Header from "./components/Header";
-import { FormSplitBill } from "./components/FormSplitBill";
+import { FormScreen } from "./components/FormScreen";
 import { FriendsList } from "./components/FriendsList";
-
-export function Button({ children, onClick, className = "" }) {
-  return (
-    <button className={`button ${className}`} onClick={onClick}>
-      {children}
-    </button>
-  );
-}
 
 function App() {
   const [friends, setFriends] = useState(initialFriends);
@@ -34,8 +26,8 @@ function App() {
       prev.map((friend) =>
         friend.id === selectedFriend.id
           ? { ...friend, balance: friend.balance + value }
-          : friend
-      )
+          : friend,
+      ),
     );
     setSelectedFriend(null);
   };
@@ -48,12 +40,12 @@ function App() {
   const deleteFriend = (id) => {
     const friendToDelete = friends.find((friend) => friend.id === id);
     const confirmed = window.confirm(
-      `Are you sure you want to delete ${friendToDelete.name}?`
+      `Are you sure you want to delete ${friendToDelete.name}?`,
     );
 
     if (confirmed) {
       setFriends((prevFriends) =>
-        prevFriends.filter((friend) => friend.id !== id)
+        prevFriends.filter((friend) => friend.id !== id),
       );
     }
 
@@ -74,7 +66,8 @@ function App() {
             onAddFriendClick={handleAddFriendClick}
             deleteFriend={deleteFriend}
           />
-          <FormSplitBill
+          <FormScreen
+            key={selectedFriend?.id}
             selectedFriend={selectedFriend}
             onSplitBill={splitBill}
             addFriend={addFriend}

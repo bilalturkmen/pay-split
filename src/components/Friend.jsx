@@ -1,4 +1,4 @@
-import { Button } from "../App";
+import { Button } from "./Button";
 import { BalanceMessage } from "./BalanceMessage";
 
 export function Friend({ friend, onSelection, selectedFriend, deleteFriend }) {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "../App";
+import { Button } from "./Button";
 
 export function FormAddFriend({
   onAddFriend,
@@ -54,7 +54,7 @@ export function FormAddFriend({
   };
 
   return (
-    <>
+    <div className="add-friend selected w-full flex flex-col items-end md:h-147 order-1 mb-8">
       <form className="form-add-friend bordering" onSubmit={handleSubmit}>
         <label>👫 Friend name</label>
         <input
@@ -81,6 +81,6 @@ export function FormAddFriend({
       <Button onClick={handleOtherButtonClick} className="mr-4 mt-auto">
         ❌ Close
       </Button>
-    </>
+    </div>
   );
 }
