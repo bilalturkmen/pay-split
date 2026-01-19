@@ -9,7 +9,7 @@ https://eatnsplitx.netlify.app/
 ## 👍 My Challenges:
 
 - Tailwind CSS has been applied.
-- Improving too many aspects of front-end design 🤗
+- Improving many aspects of front-end design 🤗
 - Button positions have been rearranged and a scrollbar feature has been added to the friends list section.
 - A delete friend button and a warning window have been added.
 - The difference between uppercase and lowercase letters was ignored.
