@@ -15,7 +15,7 @@ https://pay-split.netlify.app/
 - The difference between uppercase and lowercase letters was ignored.
 - Special effort was made for responsive design.
 
-![](./public/screenshot.png)
+![](./public/screeenshot.png)
 
 ## 🎉 Build With:
 
