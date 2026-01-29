@@ -1,7 +1,7 @@
 const Attribution = () => {
   return (
     <div className=" w-full text-center text-sm text-indigo-300 pt-3">
-      A project from a React JS training - Coded by{" "}
+      Training project on useState, form and data management - Coded by{" "}
       <a
         className="underline"
         href="https://bilalturkmen.com"

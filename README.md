@@ -1,9 +1,9 @@
-<h1>Eat'n Split</h1>
+<h1>Pay Split</h1>
 
-https://eatnsplitx.netlify.app/
+https://pay-split.netlify.app/
 
 <div>
-  A project from a React JS training: This app helps you keep track of who paid what. 
+  Training project on useState, form and data management. 
 </div>
 
 ## 👍 My Challenges:
