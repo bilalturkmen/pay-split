@@ -3,7 +3,7 @@
 https://pay-split.netlify.app/
 
 <div>
-  Training project on useState, form and data management. 
+  A React JS application practicing form handling, state management with useState, and dynamic data processing.
 </div>
 
 ## 👍 My Challenges:

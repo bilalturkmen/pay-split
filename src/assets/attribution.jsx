@@ -1,7 +1,7 @@
 const Attribution = () => {
   return (
     <div className=" w-full text-center text-sm text-indigo-300 pt-3">
-      Training project on useState, form and data management - Coded by{" "}
+      A practicing project on useState, form and data management - Coded by{" "}
       <a
         className="underline"
         href="https://bilalturkmen.com"
