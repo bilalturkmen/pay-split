@@ -2,9 +2,7 @@
 
 https://pay-split.netlify.app/
 
-<div>
-  A React JS application practicing form handling, state management with useState, and dynamic data processing.
-</div>
+A React JS application practicing `form handling`, state management with `useState`, and `dynamic data` processing.
 
 ## 👍 My Challenges:
 
