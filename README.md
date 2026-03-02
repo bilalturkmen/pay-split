@@ -2,7 +2,7 @@
 
 https://pay-split.netlify.app/
 
-A React JS application practicing `form handling`, state management with `useState`, and `dynamic data` processing.
+a bill splitting app for practicing `form handling`, state management with `useState`, and dynamic data processing.
 
 ## 👍 My Challenges:
 
